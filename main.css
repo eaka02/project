@@ -1,0 +1,59 @@
+nav a{
+    display:inline-block;
+    padding:0.01rem;
+    border-width:1rem ;
+    border-color:#0000ff;
+    border-style:solid;
+    background-color:blue;
+    text-decoration: none;
+    color:white;
+    
+
+}
+
+img {
+    height: auto; 
+    max-width: 100%;
+    border-width: 1px;
+	border-style: solid;
+	border-color: black; 
+
+}
+
+ body{
+    font-family: sans-serif;
+    margin:2rem;
+    font-size:1rem;
+ }
+
+ h1{
+    margin-bottom:2rem;
+    margin-top: 2rem;
+ }
+ h2{
+    margin-bottom:0rem;
+    margin-top: 5rem;
+ }
+ h3{
+    margin-bottom:1rem;
+     margin-top: 2rem;
+ }
+
+.grid{
+    display:grid;
+}
+.grid.add-gutters{
+    grid-column-gap:4rem;
+    grid-row-gap:0.25rem;
+}
+.grid.two-column{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+}
+
+/*from https://codepen.io/andrewhaw/pen/vYmgpoo/0db77dedc33eea088b549e4153a45796?editors=1100*/
+a:hover, a:focus {
+	color: rgb(255, 0, 0);
+    text-decoration: none;
+}
